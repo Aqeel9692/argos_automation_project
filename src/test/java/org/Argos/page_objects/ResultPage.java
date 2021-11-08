@@ -30,7 +30,7 @@ public class ResultPage extends DriverFactory { //previously I was extending Hoo
     public void continueShopping(){
         driver.findElement(By.cssSelector("button[data-test='component-att-button-continue']")).click();
     }
-
+  //do not make changes from github
     public void selectRating(String myChoiceRating) {
         List<WebElement> ratingWebElements = driver.findElements(By.cssSelector("div[data-test='rating-facet-content'] .GzCpT"));
         //System.out.println(ratingWebElements.size());//to print size of the rating
